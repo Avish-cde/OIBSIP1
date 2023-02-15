@@ -1,0 +1,75 @@
+ .min-h-screen{
+    min-height: 100vh;
+ }
+ .mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+ }
+ hr{
+  color: #ced4da;
+ }
+ .flex{
+   display: flex;
+ }
+ .flex-col{
+  flex-direction: column;
+ }
+ .items-center{
+   align-items: center;
+ }
+ .justify-between{
+   justify-content:space-between;
+ }
+ .justify-center{
+   justify-content: center;
+ }
+ .font-bold{
+  font-weight: bolder;
+  font-size: 1.3rem;
+ }
+ .mx-1{
+  margin-top: 13px;
+  margin-bottom: 13px;
+ }
+ .mx-2{
+  margin-top: 26px;
+  margin-bottom: 26px;
+ }
+ .px-1{
+  margin-top: 13px;
+  margin-bottom: 13px;
+ }
+ .text-red{
+  color: rgb(245, 236, 236);;
+ }
+ .text-center{
+  text-align: center;
+ }
+ .text-justufy{
+  text-align: justify;
+ }
+ .btn{
+  padding: 4px 12px;
+  color: #f44336;
+  border: 1px solid #f44336;
+  border-radius: 7px;
+  background-color: rgb(255, 255, 255);
+  cursor:pointer
+ }
+ .btn2{
+  padding: 4px 12px;
+  color: rgb(255, 255, 255);
+  border: 1px solid #f44336;
+  border-radius: 7px;
+  background-color: #f44336;
+  cursor:pointer
+ }
+ .btnpadding{
+  padding-left: 10px;
+  padding-right: 10px;
+ }
+ 
+ .overflow-hidden{
+  overflow-y: scroll  ;
+  overflow-x: hidden;
+ }

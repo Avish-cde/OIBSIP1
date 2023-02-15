@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    margin: 0;
+    padding: 0;
+    background-color: #555555;
+}
+header div{
+    margin: 10px;
+    padding: 10px;
+}
+.navbar{
+    overflow: hidden;
+    display: flex;
+    height: 70px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.navbar li a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 248, 248);
+}
+nav ul li:hover{
+    font-weight: 200;
+}
+
+
+.topleft{
+    /* display: flex; */
+    height: 50vh;
+    width: 50%;
+    /* padding:12px 0px; */
+}
+
+.topright{
+    width: 50%;
+    /* padding:12px 0px; */
+    height: 50vh;
+}
+.section1{
+    min-height: 70vh;
+    max-height: 100vh;
+}
+.section1 h1{
+    font-size: 2rem;
+}
+
+.img1{
+    /* margin-left: 50vh; */
+    width: 270px;
+    height: 420px;
+}
+.dumbellimg{
+    height: 80px;
+    width: 140px;
+    align-self: center;
+}
+.section2 h1{
+    font-size: 2rem;
+}
+.section2{
+    max-width: 80vw;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.box{
+    
+    margin: 12px 22px;
+    width: 50vw;
+    text-align: center;
+    border: 1.5px solid #ced4da;
+    border-radius: 6px;
+}
+.box ul {
+    list-style: none;
+}
+.box h2{
+    background-color:#dee2e6 ;
+    padding-bottom: 8px;
+}
+.box ul li{
+    margin: 10px;
+}
+.box1{
+    
+    margin: 12px 22px;
+    width: 50vw;
+    text-align: center;
+    border: 1.5px solid #ced4da;
+    border-radius: 6px;
+}
+.box1 ul {
+    list-style: none;
+}
+.box1 h2{
+    background-color:#dee2e6 ;
+    padding-bottom: 8px;
+}
+.box1 ul li{
+    margin: 10px;
+}
+.box2{
+    
+    margin: 12px 22px;
+    width: 50vw;
+    text-align: center;
+    border: 1.5px solid #f44336;
+    border-radius: 6px;
+}
+.box2 ul {
+    list-style: none;
+}
+.box2 h2{
+    background-color:#f44336 ;
+    padding-bottom: 8px;
+}
+.box2 ul li{
+    margin: 10px;
+}
+.box2 h2{
+    color: white;
+}
+.para{
+    padding:10px 60px;
+}
